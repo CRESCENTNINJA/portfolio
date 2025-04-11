@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo">Your Name</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hello, I'm <span class="highlight">Your Name</span></h2>
+                <h3>Data & DevOps Engineer</h3>
+                <p>Passionate about building efficient systems and analyzing data.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Brief overview about yourself - your background, education, interests, and career goals. Make
+                        this personal and engaging.</p>
+                    <p>Highlight your journey and what drives you in the fields of Data and DevOps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Data Skills</h3>
+                    <ul class="skill-list">
+                        <li>Data Analysis</li>
+                        <li>SQL</li>
+                        <li>Python</li>
+                        <li>Data Visualization</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps Skills</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>Docker</li>
+                        <li>Cloud Platforms (AWS/Azure/GCP)</li>
+                        <li>Infrastructure as Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <h2 class="section-title">Resume Overview</h2>
+            <div class="resume-content">
+                <p>Here's a brief overview of my professional experience and educational background:</p>
+                <div class="resume-item">
+                    <h3>Work Experience</h3>
+                    <div class="experience">
+                        <h4>Job Title - Company Name</h4>
+                        <p class="duration">Month Year - Present</p>
+                        <ul>
+                            <li>Achievement or responsibility 1</li>
+                            <li>Achievement or responsibility 2</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="resume-item">
+                    <h3>Education</h3>
+                    <div class="education">
+                        <h4>Degree - Institution</h4>
+                        <p class="duration">Year - Year</p>
+                        <p>Brief description or notable achievements</p>
+                    </div>
+                </div>
+                <div class="resume-download">
+                    <a href="assets/resume.pdf" download class="btn">
+                        <i class="fas fa-download"></i> Download Full Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Feel free to reach out to me through any of the following channels:</p>
+                <div class="contact-links">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-btn linkedin">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/yourusername" target="_blank" class="contact-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:your.email@example.com" class="contact-btn email">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot-widget">
+        <div class="chatbot-button">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                <h3>Ask me anything about my resume</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot">
+                    Hi there! I'm a virtual assistant. Ask me anything about my skills, experience, or qualifications.
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your question...">
+                <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+
+</html>
